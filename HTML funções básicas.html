@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FUNÇÕES BASICAS</title>
+
+</head>
+
+<body>
+    <h1> HTML FUNÇÕES BÁSICAS</h1>
+    <hr />
+    <h2 id="indice">Índice</h2>
+
+    <ul>
+        <li><a href="#surgimento"> Surgimento do Html</a></li>
+        <li><a href="#estrutura"> Estrutura básica</a></li>
+        <li><a href="#semantica"> Semântica</a></li>
+        <li><a href="#listas"> Listas</a></li>
+        <li><a href="#referencias"> Referências</a></li>
+
+    </ul>
+
+    <h2 id="surgimento">   Surgimento do Html</h2>
+    <small><a href="#indice"> voltar</a></small>
+
+    <p>Em 1991 <strong>Tim Berners-Lee</strong> criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML(1991,1995,1997,1997,2014) se tornou a base da web. </p>
+    <p> O HTML é formado por tags, ou seja, deve ser sempre criado uma tag de abertura e fechamento, com esses elementos podemos agrupar tipos de conteudo, alterar tamanho e forma das fontes e adicionar diferentes mídias ao longo da pagina Web </p>
+    <p> Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML</p>
+    
+    <h2 id="estrutura">Estrutura básica</h2>
+    <small><a href="#indice"> voltar</a></small>
+
+    <p> A primeira linha do documento deve ser o <b><i></i>< !DOCTYPE html ></b></i>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo. </p>
+    <p> < meta charset=”UFT-8 > a marca meta indica informações de matadados que normalmente não fica4rão visiveis para o visualizador, a menos que ele use o próprio navegador para exibir o código fonte.</p>
+    <p> Metaelementos ou metamarcas fornecem informações descritivas sobre a pagina da WEB. Por exemplo, eles ajudam os mecanismos de pesquisa a exibir os resultados para as pessoas. </p>
+    <p> O conjunto de caracteres UFT-8 pode parecer insignificante , mas é crucial para estabelecer o modo como os computadores interpretam caracteres, caso esteja ausente, pode inclusive levar a um comprometimento de segurança </p>
+    <p> São 3 as tags básicas do HTML sendo elas: < html> está é a raiz do documento, todos os elementos devem estar dentro dela; < head> esta tag contém elementos que serão lidos pelo navegador, como por exemplo metadados; < body> que é o corpo do site, é onde devemos colocar textos, imágens, audios, videos.</body> </HTML></p>
+    
+    <h2 id="semantica">Semântica</h2>
+    <small><a href="#indice"> voltar</a></small>
+
+    <p>A semântica nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários elementos para ressignificar as divs:</p>
+    
+    <h3> < section > </h3>
+
+    <p>Representa uma seção genérica de conteúdo quando não houver um elemento mais especifico para isso </p>
+
+    <h3> < header ></h3>
+
+    <p>É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.</p>
+
+    <h3> < article ></h3>
+
+    <p> Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens. </p>
+
+    <h3> < aside ></h3>
+
+    <p>É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.</p>
+
+    <h3> < footer ></h3>
+
+    <p>Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um < footer > são informações de autor e links relacionados.</p>
+
+    <h3> < h1 > < h6 > </h3>
+
+    <p> Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo < h1 > o mais importante e < h6 > o menos. Uma dica: use apenas um < h1 > por página, pois ele representa o objetivo da sua página. </p>
+
+    <h2 id="listas">Listas</h2>
+    <small><a href="#indice"> voltar</a></small>
+
+    <p>As listas servem para agrupar uma coleção de itens, como uma lista de igredientes ou, contatos e etc. vamos aprender a utilização dos elementos da lista são eles: < ul >, < ol > e < li > </p>
+
+    <p>O elemento < ul > cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.<br>
+        O < ol > serve para criar listas ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.<br>
+        < ol type="A" > ordena a lista com letras maiúsculas: (A, B, C...)<br>
+        < ol type="a" > ordena a lista com letras minúsculas: (a, b, c...)<br>
+        < ol type="I" > ordena a lista com números romanos: (I, II, III...)<br>
+        < ol type="i" > ordena a lista com números romanos minúsculos: (i, ii, iii...)<br> </p>
+
+    <h1 id="referencias"> Referências </h1>
+    <small><a href="#indice"> voltar</a></small><br>
+    <br>
+
+    <a href="#">http://www.clem.ufba.br/tuts/html/c05.htm</a><br>
+    <a href="#">https://docs.google.com/document/d/1QRbH6KKbHTl-U-9id7UtZTXDP5kjSXxhrQWkgUcy1gk/edit</a><br>
+    <a href="#">https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica</a><br>
+
+</body>
+
+</html>
